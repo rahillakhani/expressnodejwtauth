@@ -16,6 +16,7 @@ app.post("/authorise", (req,res) => {
     //     "Content-Security-Policy":"default-src 'self' *.spenmo.com data: ; script-src 'self'; object-src 'self'; img-src 'self' spenmo-prod.s3-ap-southeast-1.amazonaws.com spenmo.s3-ap-southeast-1.amazonaws.com local.spenmo.com data: blob:; ",
     //     "Strict-Transport-Security":"max-age=31536000"
     // });
+    console.log(req);
     res.send ({somedata: "data"});
 });
 app.get("/authorise", (req,res) => {
