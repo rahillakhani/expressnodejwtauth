@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 
-const port = process.env.NODE_ENV === "production" ? 8090 : 80;
+const port = 80;
 
 app.use("/public", express.static("public"));
 
